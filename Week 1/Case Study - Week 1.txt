@@ -1,0 +1,42 @@
+Case Study - Week 1:
+
+Task List:
+1. Launch an EC2 instance (Amazon Linux/ Ubuntu)
+
+2. Install python and mysql
+
+3. Read the Students-Table.csv file from S3 using python.
+
+4. Print data types of all columns
+
+5. Combine the First Name and Last Name columns to single new column called Full Name
+
+6. Convert date time format to YYYY-MM-DD 
+
+7. Convert Percentage column from float to decimal and approximate to 2 significant figures after the decimal point.
+
+8. Create a Database in mysql and create a table with the file modified till previous step
+
+9. Insert new rows using the Insert-Table.csv in s3
+
+10. Update the rows mentioned in Update-Table.csv in s3
+
+11. Create a new table and copy contents from students-table.
+
+12. Alter table schema and add a new column. 
+
+13. The column name should be Pass/Fail with Boolean data type. Percentage > 40 True else False.
+
+14. Show contents of new table.
+
+15. Delete records who failed.
+
+16. Show contents of new table.
+
+17. Truncate the students-table.
+
+18. Display its contents.
+
+19. Drop Students-table.
+
+20. Display its contents.

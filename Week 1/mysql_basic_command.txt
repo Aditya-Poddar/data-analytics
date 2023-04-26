@@ -1,0 +1,45 @@
+# Load csv data into table.
+LOAD DATA INFILE '/var/lib/mysql-files/Update-TableNew.csv' INTO TABLE test FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+-----------------------------------------------------------------------------------------------------------------
+# Replace into table
+LOAD DATA INFILE '/var/lib/mysql-files/Update-TableNew.csv'
+REPLACE INTO TABLE Student
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+------------------------------------------------------------------------------------------------------------------
+# Alter table and add new column PassFail.
+ALTER TABLE new_table ADD COLUMN PassFail BOOLEAN;
+------------------------------------------------------------------------------------------------------------------
+# Data table as which has more than 40 % as pass.
+UPDATE new_table SET PassFail = CASE WHEN Percentage > 40 THEN TRUE ELSE FALSE END;
+------------------------------------------------------------------------------------------------------------------
+# Delete data who is failed.
+DELETE FROM new_table WHERE PassFail = 0;
+------------------------------------------------------------------------------------------------------------------
+# count repeated studentid
+SELECT `Studentid`, COUNT(*) AS `count` 
+FROM Student
+GROUP BY `Studentid`;
+-----------------------------------------------------------------------------------------------------------------
+# delete specific entry from table.
+DELETE FROM Customers WHERE Studentid=2380,2217;
+------------------------------------------------------------------------------------------------------------------
+# create table. 
+CREATE TABLE test(Studentid    INTEGER  NOT NULL 
+  ,Full_Name    VARCHAR(40) NOT NULL
+  ,email        VARCHAR(33) NOT NULL
+  ,Date_of_Exam DATE  NOT NULL
+  ,Marks        INTEGER  NOT NULL
+  ,Percentage   NUMERIC(6,2) NOT NULL
+  ,City         VARCHAR(26) NOT NULL
+  ,Country      VARCHAR(44) NOT NULL
+  ,Country_Code VARCHAR(2)
+);
+------------------------------------------------------------------------------------------------------------------
+# Read encoded file in pandas.
+#df=pd.read_csv('Insert-Table.csv',encoding = "ISO-8859-1")
+--------------------------------------------------------------------------------------------------------------------
+# remove primary key
+ALTER TABLE Students DROP PRIMARY KEY;
