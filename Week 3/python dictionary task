@@ -1,0 +1,12 @@
+Python Dictionary task
+
+Write a Python function that takes in two dictionaries and returns a dictionary that contains only the keys that are present in both dictionaries.
+Write a Python function that takes in a list of dictionaries and a key, and returns a new list of dictionaries sorted by the value of the specified key in each dictionary.
+Write a Python function that takes in a dictionary and returns the key with the maximum value.
+Write a Python function that takes in a dictionary and returns a new dictionary that contains only the keys that have even values.
+Write a Python function that takes in a dictionary and returns a new dictionary that contains the keys sorted by their values in descending order.
+Write a Python function that takes in a list of dictionaries and returns a new list of dictionaries that contain only the keys that are present in all dictionaries.
+Write a Python function that takes in a dictionary and a list of keys, and returns a new dictionary that contains only the specified keys and their corresponding values.
+Write a Python function that takes in a dictionary and a list of keys, and returns a new dictionary that contains only the keys that are not present in the list.
+Write a Python function that takes in a list of dictionaries and a key, and returns a new list of dictionaries that contain only the dictionaries with the specified key.
+Write a Python function that takes in a dictionary and a list of keys, and returns a new dictionary that contains only the keys that are present in the dictionary and not in the list
