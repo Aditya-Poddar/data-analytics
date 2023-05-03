@@ -1,0 +1,19 @@
+Create a list comprehension to extract all odd numbers from the list [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].
+Create a list comprehension to extract all even numbers from the list [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].
+Create a list comprehension to extract all words from the string "The quick brown fox jumps over the lazy dog" that start with the letter "t".
+Create a list comprehension to extract all words from the string "The quick brown fox jumps over the lazy dog" that are longer than 4 characters.
+Create a list comprehension to extract all vowels from the string "The quick brown fox jumps over the lazy dog".
+Create a list comprehension to find the sum of all the numbers in the list of lists [[1, 2, 3], [4, 5, 6], [7, 8, 9]].
+Create a list comprehension to flatten the list of lists [[1, 2, 3], [4, 5, 6], [7, 8, 9]].
+Create a list comprehension to find the common elements between the lists [1, 2, 3, 4, 5] and [4, 5, 6, 7, 8].
+Create a list comprehension to find the elements in the list [1, 2, 3, 4, 5] that are not in the list [4, 5, 6, 7, 8].
+Create a list comprehension to find the indices of the number 3 in the list [1, 2, 3, 4, 5, 6, 7, 8, 9].
+Create a list comprehension to extract all prime numbers from the list [2, 3, 5, 7, 9, 11, 13, 17, 19, 23, 29].
+Create a list comprehension to extract all palindromes from the list ['racecar', 'level', 'deified', 'mom'].
+Create a list comprehension to find the maximum element in each sublist of the list of lists [[1, 2, 3], [4, 5, 6], [7, 8, 9]].
+Create a list comprehension to remove all duplicates from the list [1, 2, 3, 4, 3, 5, 6, 1, 2, 7].
+Create a list comprehension to sort the list of strings ['apple', 'banana', 'kiwi', 'orange', 'pear'] by their length.
+Create a list comprehension to remove all whitespace from the string "The quick brown fox jumps over the lazy dog".
+Create a list comprehension to extract all non-negative numbers from the list [1, -2, 3, -4, 5, -6].
+Create a list comprehension to extract all unique characters from the string "The quick brown fox jumps over the lazy dog".
+Create a list comprehension to extract all words from the string "The quick brown fox jumps over the lazy dog" that contain the substring "o".
